@@ -1,0 +1,19 @@
+.navbarContainer{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    display:flex ;
+    justify-content: space-between;
+}
+.navbarContainer>div:nth-child(2){
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+    color: rgb(193, 216, 236);
+}
+
+@media all and (min-width: 100px) and (max-width: 1000px){
+    .navbarContainer>div:nth-child(2){
+        display: none;
+    }
+}

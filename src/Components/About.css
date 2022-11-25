@@ -1,0 +1,27 @@
+.AboutContent{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+}
+.AboutContent>div>div>p{
+    width: 70%;
+    margin: auto;
+    font-size: 28px;
+    color: rgb(193, 216, 236);
+    text-align: justify;
+}
+.About>div>h1{
+    font-size: 50px;
+}
+
+@media all and (min-width: 100px) and (max-width: 1000px){
+    .AboutContent>div>div>p{
+        width: 80%;
+        margin: auto;
+        font-size: 23px;
+        color: rgb(193, 216, 236);
+        text-align: justify;
+    }   
+}
