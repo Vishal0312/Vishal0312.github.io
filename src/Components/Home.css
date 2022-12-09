@@ -1,37 +1,65 @@
 .homeContainer{
-    width: 90%;
+    width: auto;
     margin: auto;
     padding: 30px;
     display: flex;
     justify-content: space-around;
     color: rgb(193, 216, 236);
+    padding-top: 200px;
+    background-color: #3a3a3b;
 }
 .homeContainer>div:nth-child(1){
     font-size: 30px;
     padding: 40px;
 }
 .homeContainer>div>img{
-    width: 350px;
-    height: 350px;
+    width: 80%;
+    height: auto;
     border-radius: 100px;
 }
 
 
-@media all and (min-width: 200px) and (max-width: 1000px){
+@media all and (min-width: 500px) and (max-width: 1000px){
 .homeContainer{
+    width: 100%;
     flex-direction: column;
+    background-color: #3a3a3b;
 }
 .homeContainer>div:nth-child(1){
     text-align: justify;
 }
+.homeContainer>div{
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+.homeContainer>div>img{
+    width: 10%;
+    height: auto;
+    border-radius: 100px;
+}
 }
 
-@media all and (min-width: 50px) and (max-width: 200px){
+@media all and (min-width: 50px) and (max-width: 500px){
     .homeContainer{
+        width: 100%;
+        background-color: #3a3a3b;
         flex-direction: column;
+        padding: 10px;
     }
     .homeContainer>div:nth-child(1)>h3{
         text-align: justify;
-        font-size: 20px;
+        font-size: 18px;
     }
+    .homeContainer>div{
+        width: 100%;
+        height: auto;
+        border-radius: 100px;
+    }
+    .homeContainer>div>img{
+        width: 10%;
+        height: auto;
+        border-radius: 100px;
+    }
+    
 }

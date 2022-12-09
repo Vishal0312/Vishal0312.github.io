@@ -1,7 +1,10 @@
 import React from "react";
-import "./Navbar.css"
+// import "./Navbar.css"
+import Project from './Project'
 
 function Navbar(){
+
+   
     return(
         <div className="navbarContainer">
             <div> <h1>Vishal Rohilla</h1> </div>
@@ -9,10 +12,13 @@ function Navbar(){
                 <div>Home</div>
                 <div>About</div>
                 <div>Skill</div>
-                <div>Project</div>
+                <div className="pro">Project</div>
                 <div>Contact Me</div>
-                <div>Resume</div>
+                <div>
+                  <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' download>Resume</a>
+                </div>
             </div>
+        
         </div>
     )
 }

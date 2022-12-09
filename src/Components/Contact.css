@@ -1,0 +1,40 @@
+.contact>div{
+    display: flex;
+    justify-content: space-around;
+}
+.contact p{
+    color: rgb(193, 216, 236);
+}
+.contact h1{
+    text-decoration: underline;
+}
+.contact>div>div{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media all and (min-width: 500px) and (max-width: 1000px){
+    .contact>div{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: auto;
+       gap: 40px;
+    }
+}
+@media all and (min-width: 50px) and (max-width: 500px){
+    .contact>div{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: auto;
+       gap: 20px;
+    }
+    .contact h1{
+        font-size: 20px;
+    }
+    .contact>div>div>p{
+        width: 60%;
+        font-size: 12px;
+        margin: auto;
+    }
+}

@@ -1,9 +1,12 @@
 .AboutContent{
     display: flex;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin: 0px;
     padding: 30px;
     color: white;
+}
+.About{
+    width: 100%;
 }
 .AboutContent>div>div>p{
     width: 70%;
@@ -16,12 +19,23 @@
     font-size: 50px;
 }
 
-@media all and (min-width: 100px) and (max-width: 1000px){
+@media all and (min-width: 50px) and (max-width: 1000px){
     .AboutContent>div>div>p{
-        width: 80%;
+        width: 100%;
         margin: auto;
         font-size: 23px;
         color: rgb(193, 216, 236);
         text-align: justify;
+        background-color: #3a3a3b;
+    }
+    .AboutContent{
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+        color: white;
+    }
+    .About{
+        width: 100%;
     }   
 }

@@ -2,6 +2,10 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Home from './Components/Home';
 import './App.css';
+import Project from './Components/Project';
+import GithubStats from './Components/GithubStats';
+import Skills from './Components/Skills';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -9,7 +13,10 @@ function App() {
       <Navbar/>
       <Home/>
       <About />
-     Vishal is making portfolio
+       <Project/> 
+    {/* <GithubStats/> */}
+    <Skills/>
+    <Contact/>
     </div>
   );
 }

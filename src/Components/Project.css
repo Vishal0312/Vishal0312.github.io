@@ -1,0 +1,45 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 100px;
+}
+.project>h1{
+    font-size: 50px;
+}
+
+.projectdiv{
+    display: flex;
+    gap: 30px;
+}
+.projectdiv>div{
+    width: 50%;
+    align-content: center;
+    color: rgb(193, 216, 236);
+}
+.projectdiv>div>img{
+    margin-top: 20px;
+}
+.projectdiv>div>p{
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.projectdiv>div>div>a>button, .projectdiv>div>div>a{
+    height: 23px;
+    width: 20%;
+    margin-right: 30px;
+}
+
+
+@media all and (min-width: 50px) and (max-width: 1000px){
+    .projectdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+}
