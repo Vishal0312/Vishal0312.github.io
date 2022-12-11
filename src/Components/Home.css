@@ -1,8 +1,8 @@
 .homeContainer{
     width: auto;
     margin: auto;
-    padding: 30px;
     display: flex;
+    padding: 30px;
     justify-content: space-around;
     color: rgb(193, 216, 236);
     padding-top: 200px;
@@ -10,7 +10,6 @@
 }
 .homeContainer>div:nth-child(1){
     font-size: 30px;
-    padding: 40px;
 }
 .homeContainer>div>img{
     width: 80%;
@@ -21,9 +20,13 @@
 
 @media all and (min-width: 500px) and (max-width: 1000px){
 .homeContainer{
-    width: 100%;
+    width: 90%;
     flex-direction: column;
+    gap: 30px;
     background-color: #3a3a3b;
+}
+.homeContainer h3{
+    font-size: 30px;
 }
 .homeContainer>div:nth-child(1){
     text-align: justify;
@@ -34,10 +37,14 @@
     border-radius: 100px;
 }
 .homeContainer>div>img{
-    width: 10%;
+    width: 50%;
     height: auto;
     border-radius: 100px;
 }
+.homeContainer{
+    padding: 0px;
+}
+
 }
 
 @media all and (min-width: 50px) and (max-width: 500px){
@@ -45,19 +52,21 @@
         width: 100%;
         background-color: #3a3a3b;
         flex-direction: column;
-        padding: 10px;
+        gap: 15px;
+        padding: 0px;
     }
-    .homeContainer>div:nth-child(1)>h3{
+    .homeContainer h3{
         text-align: justify;
-        font-size: 18px;
+        font-size: 1rem;
     }
     .homeContainer>div{
-        width: 100%;
+        width: 70%;
+        margin: auto;
         height: auto;
         border-radius: 100px;
     }
     .homeContainer>div>img{
-        width: 10%;
+        width: 70%;
         height: auto;
         border-radius: 100px;
     }

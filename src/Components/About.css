@@ -2,11 +2,14 @@
     display: flex;
     width: 100%;
     margin: 0px;
-    padding: 30px;
     color: white;
+    margin-top: 5%;
+    padding-top: 100px;
 }
+
 .About{
     width: 100%;
+    margin-top: 5%;
 }
 .AboutContent>div>div>p{
     width: 70%;
@@ -17,10 +20,11 @@
 }
 .About>div>h1{
     font-size: 50px;
+    text-decoration: underline;
 }
 
-@media all and (min-width: 50px) and (max-width: 1000px){
-    .AboutContent>div>div>p{
+@media all and (min-width: 500px) and (max-width: 1000px){
+    .AboutContent>div>div{
         width: 100%;
         margin: auto;
         font-size: 23px;
@@ -28,14 +32,25 @@
         text-align: justify;
         background-color: #3a3a3b;
     }
+    .About>div>h1{
+        font-size: 30px;
+    }
     .AboutContent{
         display: flex;
         width: 100%;
         margin: 0px;
-        padding: 30px;
         color: white;
+        padding-top: 100px;
     }
     .About{
         width: 100%;
     }   
+}
+@media all and (min-width: 50px) and (max-width: 500px){
+    .AboutContent>div>div>p{
+        font-size: 12px;
+    }
+    .About>div>h1{
+        font-size: 20px;
+    }
 }

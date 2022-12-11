@@ -7,34 +7,34 @@ const Skills = () => {
             <h1>Skills</h1>
             <div className="skillimage">
                 <div>
-                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepnglogos.com%2Fpics%2Fhtml5-logo&psig=AOvVaw3z0igUmIaIE8D-JkVJ6QyD&ust=1670659644681000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPjR46aK7PsCFQAAAAAdAAAAABAE" alt="" />
+                    <img src="https://cdn3d.iconscout.com/3d/free/thumb/html-5728485-4781249.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="" />
+                    <img src="https://cdn3d.iconscout.com/3d/free/thumb/css3-4387639-3640300.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" alt="" />
+                    <img src="https://cdn3d.iconscout.com/3d/free/thumb/javascript-logo-6563586-5453022.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="" />
+                    <img src="https://cdn3d.iconscout.com/3d/free/thumb/react-5645899-4695757.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/media/logo-colored@2x.png?raw=true" alt="" />
+                    <img src="https://jquery-plugins.net/image/plugin/chakra-ui-simple-modular-accessible-ui-components-for-react-applications.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://miro.medium.com/max/800/1*x2Y1VlQTzujsU48Lz9g2wg.jpeg" alt="" />
+                    <img src="https://cdn.iconscout.com/icon/free/png-128/redux-3521674-2945118.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://foundations.projectpythia.org/_images/GitHub-logo.png" alt="" />
+                    <img src="https://cdn.iconscout.com/icon/free/png-128/github-163-761603.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://blog.cloudanalogy.com/wp-content/uploads/2020/03/vsc-01.jpg" alt="" />
+                    <img src="https://cdn.iconscout.com/icon/free/png-128/visual-studio-code-3628555-3030679.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://mms.businesswire.com/media/20210218005523/en/859955/22/Replit.jpg" alt="" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5VFAUaGcd4WIU_72j-O_iUdWdKeMgDfMd7Nvdv6pf&s" alt="" />
                 </div>
                 <div>
-                    <img src="https://miro.medium.com/max/800/1*Otx7CXIY9eh0Sxlp54olxA.png" alt="" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImfMC0sK9T4bWIuzuQ04S3sZ4EVtSJIT7ntu1-vX6tw&s" alt="" />
                 </div>
 
             </div>

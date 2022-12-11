@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    padding: 100px;
+    padding: 10px;
+    margin-top: 5%;
 }
 .project>h1{
     font-size: 50px;
+    text-decoration: underline;
 }
 
 .projectdiv{
@@ -35,11 +37,44 @@
 }
 
 
-@media all and (min-width: 50px) and (max-width: 1000px){
+@media all and (min-width: 500px) and (max-width: 1000px){
     .projectdiv{
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
-    
+    .project h1{
+        font-size: 30px;
+    }
+    .projectdiv>div{
+        width: 100%;
+        align-content: center;
+        color: rgb(193, 216, 236);
+    }
+}
+
+@media all and (min-width: 50px) and (max-width: 500px){
+    .projectdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .project h1{
+        font-size: 20px;
+    }
+    .projectdiv>div{
+        width: 100%;
+        align-content: center;
+        color: rgb(193, 216, 236);
+    }
+    .projectdiv>div>p{
+        font-size: 10px;
+    }
+    .projectdiv>div>h1{
+        font-size: 15px;
+    }
+    .projectdiv>div>div>a>button, .projectdiv>div>div>a{
+        height: 3%;
+        width: 80%;
+    }
 }

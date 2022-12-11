@@ -14,7 +14,7 @@ function App() {
       <Home/>
       <About />
        <Project/> 
-    {/* <GithubStats/> */}
+    <GithubStats/> 
     <Skills/>
     <Contact/>
     </div>

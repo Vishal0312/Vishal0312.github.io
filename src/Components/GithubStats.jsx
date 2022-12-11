@@ -1,7 +1,12 @@
-// import './GithubStats.css'
+import './GithubStats.css'
 import GitHubCalendar from 'react-github-calendar'
+import { useEffect } from 'react'
 
 const GithubStats = () => {
+
+
+console.log(window.innerWidth)
+
     return(
         <div className='github'>
             <div>

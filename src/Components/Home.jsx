@@ -1,4 +1,4 @@
-// import "./Home.css"
+import "./Home.css"
 import React from "react"
 
 function Home(){
@@ -12,7 +12,7 @@ function Home(){
                 </div>
             </div>
             <div>
-                <img width='100px' src="https://ca.slack-edge.com/T043ULJTBM5-U044ZKB5Q6N-5885efa431bd-512" alt="Vishal" />
+                <img src="https://ca.slack-edge.com/T043ULJTBM5-U044ZKB5Q6N-5885efa431bd-512" alt="Vishal" />
             </div>
         </div>
     )
