@@ -40,6 +40,7 @@ function Navbar(){
                   <MenuButton
                     px={4}
                     py={2}
+                    mr={['10px','20px','30px','40px']}
                     borderRadius='md'
                     borderWidth='1px'
                     _hover={{ bg: 'gray.400' }}

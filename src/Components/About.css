@@ -40,7 +40,7 @@
         width: 100%;
         margin: 0px;
         color: white;
-        padding-top: 100px;
+        padding-top: 40px;
     }
     .About{
         width: 100%;
@@ -49,6 +49,9 @@
 @media all and (min-width: 50px) and (max-width: 500px){
     .AboutContent>div>div>p{
         font-size: 12px;
+    }
+    .AboutContent{
+        padding-top:20px ;
     }
     .About>div>h1{
         font-size: 20px;

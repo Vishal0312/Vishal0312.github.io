@@ -2,7 +2,6 @@
     width: auto;
     margin: auto;
     display: flex;
-    padding: 30px;
     justify-content: space-around;
     color: rgb(193, 216, 236);
     padding-top: 200px;
@@ -24,6 +23,7 @@
     flex-direction: column;
     gap: 30px;
     background-color: #3a3a3b;
+    padding-top: 100px;
 }
 .homeContainer h3{
     font-size: 30px;
@@ -41,9 +41,6 @@
     height: auto;
     border-radius: 100px;
 }
-.homeContainer{
-    padding: 0px;
-}
 
 }
 
@@ -53,7 +50,7 @@
         background-color: #3a3a3b;
         flex-direction: column;
         gap: 15px;
-        padding: 0px;
+        padding-top: 80px;
     }
     .homeContainer h3{
         text-align: justify;

@@ -2,7 +2,6 @@
     
     width: 80%;
     margin: auto;
-    padding: 100px;
 }
 .github>div>h1{
     font-size: 50px;
@@ -29,7 +28,6 @@
     
         width: 90%;
         margin: auto;
-        padding: 60px;
     }
     .github>div>h1{
         font-size: 30px;
@@ -61,7 +59,6 @@
     .github{
     
         width: 100%;
-        padding: 20px;
     }
     .github>div>h1{
         font-size: 25x;

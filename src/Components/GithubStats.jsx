@@ -31,7 +31,7 @@ console.log(window.innerWidth)
                     <GitHubCalendar username='vishal0312' blockSize={10} fontSize={10} style={{margin:'auto', marginTop:'40px', color:'rgb(193, 216, 236)', width:"90%"}}/>
                 </div>
                 <div className='github3'>
-                    <GitHubCalendar username='vishal0312' blockSize={2} fontSize={2} style={{margin:'auto', marginTop:'20px', color:'rgb(193, 216, 236)', width:"90%"}}/>
+                    <GitHubCalendar username='vishal0312' blockSize={2} fontSize={1} style={{margin:'auto', marginTop:'20px', color:'rgb(193, 216, 236)', width:"90%"}}/>
                 </div>
 
             </div>
