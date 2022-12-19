@@ -10,6 +10,10 @@
     padding-top: 20px;
     
 }
+.navbarContainer>div>a{
+    text-decoration: none;
+    color: rgb(193, 216, 236);
+}
 .resume>a{
     text-decoration: none;
     color: rgb(193, 216, 236);

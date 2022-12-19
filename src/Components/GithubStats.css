@@ -5,6 +5,8 @@
 }
 .github>div>h1{
     font-size: 50px;
+    text-decoration: underline;
+    padding-top: 30px;
 }
 .github2{
     display: none;

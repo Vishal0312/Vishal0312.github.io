@@ -2,7 +2,7 @@ import './Project.css'
 
 const Project =() => {
     return (
-        <div className='project'>
+        <div id='projects' className='project'>
             <h1>PROJECT</h1>
             <div className='projectdiv'>
                 <div><img width="90%" src='https://i.postimg.cc/VLjPnmy2/Screenshot-10.png' alt='ProjectCover'/></div>

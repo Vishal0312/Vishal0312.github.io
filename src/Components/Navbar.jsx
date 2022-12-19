@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./Navbar.css";
 import {
@@ -25,11 +26,11 @@ function Navbar(){
         <div className="navbarContainer">
             <div> <h1>Vishal Rohilla</h1> </div>
             <div>
-                <div>Home</div>
-                <div>About</div>
-                <div>Skill</div>
-                <div className="pro">Project</div>
-                <div>Contact Me</div>
+                <a href="#home"><div>Home</div></a>
+                <a href="#about"><div>About</div></a>
+                <a href="#skills"><div>Skill</div></a>
+                <a href="#projects"><div className="pro">Project</div></a>
+                <a href="#contact"><div>Contact Me</div></a>
                 <div className="resume">
                   <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' download>Resume</a>
                 </div>

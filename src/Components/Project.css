@@ -50,12 +50,20 @@
         align-content: center;
         color: rgb(193, 216, 236);
     }
+    .projectdiv>div>div>a>button, .projectdiv>div>div>a{
+        height: 23px;
+        width: 20%;
+        margin-right: 30px;
+    }
 }
 
 @media all and (min-width: 50px) and (max-width: 500px){
     .projectdiv{
         display: flex;
         flex-direction: column;
+        gap: 20px;
+    }
+    .project{
         gap: 20px;
     }
     .project h1{
@@ -74,6 +82,7 @@
     }
     .projectdiv>div>div>a>button, .projectdiv>div>div>a{
         height: 3%;
-        width: 80%;
+        width: 60%;
+        margin: auto;
     }
 }
