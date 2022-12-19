@@ -28,6 +28,9 @@
 }
 
 @media all and (min-width: 500px) and (max-width: 1000px){
+    .navbarContainer{
+        width: 100%;
+    }
     .navbarContainer>div:nth-child(2){
         display: none;
     }
@@ -41,6 +44,9 @@
     }
 }
 @media all and (min-width: 50px) and (max-width: 500px){
+    .navbarContainer{
+        width: 100%;
+    }
     .navbarContainer>div:nth-child(2){
         display: none;
     }

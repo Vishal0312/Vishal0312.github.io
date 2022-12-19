@@ -3,8 +3,6 @@ import GitHubCalendar from 'react-github-calendar'
 import { useEffect } from 'react'
 
 const GithubStats = () => {
-
-
 console.log(window.innerWidth)
 
     return(
@@ -26,8 +24,16 @@ console.log(window.innerWidth)
                     </div>
                 
                 </div>
-                <GitHubCalendar username='vishal0312' blockSize={30} fontSize={30} style={{margin:'auto', marginTop:'80px', color:'rgb(193, 216, 236)', width:"90%"}}/>
-                
+                <div className='github1'>
+                    <GitHubCalendar username='vishal0312' blockSize={30} fontSize={30} style={{margin:'auto', marginTop:'80px', color:'rgb(193, 216, 236)', width:"90%"}}/>
+                </div>
+                <div className='github2'>
+                    <GitHubCalendar username='vishal0312' blockSize={10} fontSize={10} style={{margin:'auto', marginTop:'40px', color:'rgb(193, 216, 236)', width:"90%"}}/>
+                </div>
+                <div className='github3'>
+                    <GitHubCalendar username='vishal0312' blockSize={2} fontSize={2} style={{margin:'auto', marginTop:'20px', color:'rgb(193, 216, 236)', width:"90%"}}/>
+                </div>
+
             </div>
 
         </div>

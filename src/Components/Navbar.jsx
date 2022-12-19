@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import {
+  Box,
     Menu,
     MenuButton,
     MenuList,
@@ -34,25 +35,28 @@ function Navbar(){
                 </div>
             </div>
             <div className="dropdown">
-            <Menu>
-  <MenuButton
-    px={4}
-    py={2}
-    borderRadius='md'
-    borderWidth='1px'
-    _hover={{ bg: 'gray.400' }}
-    _expanded={{ bg: 'blue.400' }}
-    _focus={{ boxShadow: 'outline' }}
-  as={Button} rightIcon={<HamburgerIcon />}>
-  </MenuButton>
-  <MenuList>
-    <MenuItem>Home</MenuItem>
-    <MenuItem>About</MenuItem>
-    <MenuItem>Skills</MenuItem>
-    <MenuItem>Projects</MenuItem>
-    <MenuItem>Resume</MenuItem>
-  </MenuList>
-</Menu>
+              <Box>
+                <Menu>
+                  <MenuButton
+                    px={4}
+                    py={2}
+                    borderRadius='md'
+                    borderWidth='1px'
+                    _hover={{ bg: 'gray.400' }}
+                    _expanded={{ bg: 'blue.400' }}
+                    _focus={{ boxShadow: 'outline' }}
+                  as={Button} rightIcon={<HamburgerIcon />}>
+                  </MenuButton>
+                  <MenuList>
+                    <MenuItem>Home</MenuItem>
+                    <MenuItem>About</MenuItem>
+                    <MenuItem>Skills</MenuItem>
+                    <MenuItem>Projects</MenuItem>
+                    <MenuItem>Resume</MenuItem>
+                  </MenuList>
+                </Menu>
+              </Box>
+            
             </div>
         
         </div>

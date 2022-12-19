@@ -7,6 +7,12 @@
 .github>div>h1{
     font-size: 50px;
 }
+.github2{
+    display: none;
+}
+.github3{
+    display: none;
+}
 
 
 .images{
@@ -17,4 +23,69 @@
 }
 .images>div>img{
     width: 90%;
+}
+@media all and (min-width: 500px) and (max-width: 1000px){
+    .github{
+    
+        width: 90%;
+        margin: auto;
+        padding: 60px;
+    }
+    .github>div>h1{
+        font-size: 30px;
+    }
+    .github>div>h1{
+        font-size: 30px;
+    }   
+    
+    .images{
+        width: 80%;
+        display: grid;
+        margin: auto;
+        gap: 30px;
+    }
+    .images>div>img{
+        width: 90%;
+    }
+    .github2{
+        display: block;
+    }
+    .github1{
+        display: none;
+    }
+    .github3{
+        display: none;
+    }
+}
+@media all and (min-width: 50px) and (max-width: 500px){
+    .github{
+    
+        width: 100%;
+        padding: 20px;
+    }
+    .github>div>h1{
+        font-size: 25x;
+    }
+    .github>div>h1{
+        font-size: 12px;
+    }
+    
+    .images{
+        width: 90%;
+        display: grid;
+        margin: auto;
+        gap: 20px;
+    }
+    .images>div>img{
+        width: 90%;
+    }
+    .github1{
+        display: none;
+    }
+    .github2{
+        display: none;
+    }
+    .github3{
+        display: block;
+    }
 }
