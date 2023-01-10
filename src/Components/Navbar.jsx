@@ -8,13 +8,8 @@ import {
     MenuList,
     MenuItem,
     Button,
-    MenuItemOption,
-    MenuGroup,
-    MenuOptionGroup,
-    MenuDivider,
   } from '@chakra-ui/react';
   import {
-    ChevronDownIcon,
     HamburgerIcon
   } from '@chakra-ui/icons';
 
@@ -32,7 +27,7 @@ function Navbar(){
                 <a href="#projects"><div className="pro">Project</div></a>
                 <a href="#contact"><div>Contact Me</div></a>
                 <div className="resume">
-                  <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' download>Resume</a>
+                  <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" download>Resume</a>
                 </div>
             </div>
             <div className="dropdown">
@@ -50,12 +45,12 @@ function Navbar(){
                   as={Button} rightIcon={<HamburgerIcon />}>
                   </MenuButton>
                   <MenuList>
-                  <a href="#home"><MenuItem>Home</MenuItem></a>
-                <a href="#about"><MenuItem>About</MenuItem></a>
-                <a href="#skills"><MenuItem>Skills</MenuItem></a>
-                <a href="#projects"><MenuItem>Projects</MenuItem></a>
-                <a href="#contact"><MenuItem>Contact</MenuItem></a>
-                <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' download><MenuItem>Resume</MenuItem></a>
+                  <MenuItem><a href="#home" style={{textDecoration:'none',color:"black"}}>Home</a></MenuItem>
+                <MenuItem><a href="#about" style={{textDecoration:'none',color:"black"}}>About</a></MenuItem>
+                <MenuItem><a href="#skills" style={{textDecoration:'none',color:"black"}}>Skills</a></MenuItem>
+                <MenuItem><a href="#projects" style={{textDecoration:'none',color:"black"}}>Projects</a></MenuItem>
+                <MenuItem><a href="#contact" style={{textDecoration:'none',color:"black"}}>Contact</a></MenuItem>
+                <MenuItem><a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" style={{textDecoration:'none',color:"black"}} download>Resume</a></MenuItem>
                   </MenuList>
                 </Menu>
               </Box>
