@@ -50,11 +50,12 @@ function Navbar(){
                   as={Button} rightIcon={<HamburgerIcon />}>
                   </MenuButton>
                   <MenuList>
-                    <MenuItem>Home</MenuItem>
-                    <MenuItem>About</MenuItem>
-                    <MenuItem>Skills</MenuItem>
-                    <MenuItem>Projects</MenuItem>
-                    <MenuItem>Resume</MenuItem>
+                  <a href="#home"><MenuItem>Home</MenuItem></a>
+                <a href="#about"><MenuItem>About</MenuItem></a>
+                <a href="#skills"><MenuItem>Skills</MenuItem></a>
+                <a href="#projects"><MenuItem>Projects</MenuItem></a>
+                <a href="#contact"><MenuItem>Contact</MenuItem></a>
+                <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' download><MenuItem>Resume</MenuItem></a>
                   </MenuList>
                 </Menu>
               </Box>
