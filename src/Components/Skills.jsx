@@ -36,6 +36,18 @@ const Skills = () => {
                 <div>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImfMC0sK9T4bWIuzuQ04S3sZ4EVtSJIT7ntu1-vX6tw&s" alt="" />
                 </div>
+                <div>
+                    <img src="https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="" />
+                </div>
+                <div>
+                    <img src="https://www.mementotech.in/assets/images/icons/express.png" alt="" />
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="" />
+                </div>
+                <div>
+                    <img src="https://codeacademy.sarutech.com/assets/icons/nodejs.png" alt="" />
+                </div>
 
             </div>
         </div>
