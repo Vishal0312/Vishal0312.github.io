@@ -16,6 +16,18 @@ import {
 
 function Navbar(){
 
+  const handle = () => {
+    
+    fetch('resume.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Vishal-Rohilla-Resume.pdf';
+            alink.click();
+        })
+    })
+}
    
     return(
         <div className="navbarContainer">
@@ -27,7 +39,9 @@ function Navbar(){
                 <a href="#projects"><div className="pro">Project</div></a>
                 <a href="#contact"><div>Contact Me</div></a>
                 <div className="resume">
-                  <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" download>Resume</a>
+                  <a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer"><button onClick={handle} >Resume</button></a>
+                  
+                  
                 </div>
             </div>
             <div className="dropdown">
@@ -50,7 +64,7 @@ function Navbar(){
                 <MenuItem><a href="#skills" style={{textDecoration:'none',color:"black"}}>Skills</a></MenuItem>
                 <MenuItem><a href="#projects" style={{textDecoration:'none',color:"black"}}>Projects</a></MenuItem>
                 <MenuItem><a href="#contact" style={{textDecoration:'none',color:"black"}}>Contact</a></MenuItem>
-                <MenuItem><a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" style={{textDecoration:'none',color:"black"}} download>Resume</a></MenuItem>
+                <MenuItem><a href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" onClick={handle} style={{textDecoration:'none',color:"black"}} download>Resume</a></MenuItem>
                   </MenuList>
                 </Menu>
               </Box>

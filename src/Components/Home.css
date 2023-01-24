@@ -15,7 +15,14 @@
     height: auto;
     border-radius: 100px;
 }
-
+.homeContainer>div>div>a>button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.homeContainer>div>div>a>button:hover{
+    padding: 13px;
+}
 
 @media all and (min-width: 500px) and (max-width: 1000px){
 .homeContainer{
