@@ -12,7 +12,7 @@ const Project =() => {
                     <p>Group Project: 5 days</p>
                     <p>Tech used: HTML | Javascript | CSS</p>
                     <div>
-                        <a href='https://github.com/VivBelwal/LeadiQ' target='_blank'><button>Github</button></a>
+                        <a href='https://github.com/Vishal0312/LeadiQ' target='_blank'><button>Github</button></a>
                         <a href='https://marvelous-gingersnap-a9e17d.netlify.app/' target='_blank'><button>Live</button></a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Project =() => {
                     <p>Group Project: 5 days</p>
                     <p>Tech used: React | React-Redux | Chakra | Firebase | CSS | Javascript | HTML</p>
                     <div>
-                        <a href='https://github.com/swapnilwakchaure/travelocity_website_clone' target='_blank'><button>Github</button></a>
+                        <a href='https://github.com/Vishal0312/travelocity_website_clone' target='_blank'><button>Github</button></a>
                         <a href='https://gentle-cactus-7afc93.netlify.app/' target='_blank'><button>Live</button></a>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Project =() => {
                     <p>Group Project: 5 days</p>
                     <p>Tech used: React | React-Redux | Chakra | Firebase | CSS | Javascript | HTML</p>
                     <div>
-                        <a href='https://github.com/priyankfz7/Shop_Karo_Clone' target='_blank'><button>Github</button></a>
+                        <a href='https://github.com/Vishal0312/Shop_Karo_Clone' target='_blank'><button>Github</button></a>
                         <a href='https://cw-5.vercel.app/' target='_blank'><button>Live</button></a>
                     </div>
                 </div>
