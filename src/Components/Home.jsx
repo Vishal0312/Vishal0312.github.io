@@ -9,7 +9,7 @@ function Home(){
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Vishal-Rohilla-Resume.pdf';
+                alink.download = 'fw20_0085-Vishal-Rohilla-Resume.pdf';
                 alink.click();
             })
         })
