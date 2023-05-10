@@ -9,20 +9,20 @@
     text-decoration: underline;
 }
 
-.projectdiv{
+.project-card{
     display: flex;
     gap: 30px;
 }
-.projectdiv>div{
+.project-card>div{
     width: 50%;
     align-content: center;
     color: rgb(193, 216, 236);
 }
-.projectdiv>div>img{
+.project-card>div>img{
     margin-top: 20px;
     border-radius: 20px;
 }
-.projectdiv>div>p{
+.project-card>div>p{
     margin: auto;
     width: 70%;
     text-align: justify;
@@ -30,7 +30,7 @@
     margin-bottom: 10px;
 }
 
-.projectdiv>div>div>a>button, .projectdiv>div>div>a{
+.project-card>div>div>a>button, .projectdiv>div>div>a{
     height: 23px;
     width: 20%;
     margin-right: 30px;
@@ -38,7 +38,7 @@
 
 
 @media all and (min-width: 500px) and (max-width: 1000px){
-    .projectdiv{
+    .project-card{
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -46,12 +46,12 @@
     .project h1{
         font-size: 30px;
     }
-    .projectdiv>div{
+    .project-card>div{
         width: 100%;
         align-content: center;
         color: rgb(193, 216, 236);
     }
-    .projectdiv>div>div>a>button, .projectdiv>div>div>a{
+    .project-card>div>div>a>button, .projectdiv>div>div>a{
         height: 23px;
         width: 20%;
         margin-right: 30px;
@@ -59,7 +59,7 @@
 }
 
 @media all and (min-width: 50px) and (max-width: 500px){
-    .projectdiv{
+    .project-card{
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -70,18 +70,18 @@
     .project h1{
         font-size: 20px;
     }
-    .projectdiv>div{
+    .project-card>div{
         width: 100%;
         align-content: center;
         color: rgb(193, 216, 236);
     }
-    .projectdiv>div>p{
+    .project-card>div>p{
         font-size: 10px;
     }
-    .projectdiv>div>h1{
+    .project-card>div>h1{
         font-size: 15px;
     }
-    .projectdiv>div>div>a>button, .projectdiv>div>div>a{
+    .project-card>div>div>a>button, .projectdiv>div>div>a{
         height: 3%;
         width: 60%;
         margin: auto;
