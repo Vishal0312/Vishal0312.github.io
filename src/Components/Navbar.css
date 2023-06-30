@@ -14,7 +14,8 @@
     text-decoration: none;
     color: rgb(193, 216, 236);
 }
-.resume>a>button{
+
+.nav-link resume>a>button{
     text-decoration: none;
     color: rgb(193, 216, 236);
     background-color: #3a3a3b ;

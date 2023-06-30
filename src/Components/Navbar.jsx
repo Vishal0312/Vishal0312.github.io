@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./Navbar.css";
+ import "./Navbar.css";
 import {
   Box,
     Menu,
@@ -33,13 +33,13 @@ function Navbar(){
         <div className="navbarContainer" id="nav-menu">
             <div> <h1>Vishal Rohilla</h1> </div>
             <div>
-                <a href="#home"><div id="nav-link home">Home</div></a>
-                <a href="#about"><div id="nav-link about">About</div></a>
-                <a href="#skills"><div id="nav-link skills">Skill</div></a>
-                <a href="#projects"><div className="pro"  id="nav-link projects">Project</div></a>
-                <a href="#contact"><div id="nav-link contact">Contact Me</div></a>
-                <div className="resume"  id="nav-link resume">
-                  <a id="resume-link-1" href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer"><button className="resume-button-1" onClick={handle} >Resume</button></a>
+                <a href="#home"><div className="nav-link home">Home</div></a>
+                <a href="#about"><div className="nav-link about">About</div></a>
+                <a href="#skills"><div className="nav-link skills1">Skill</div></a>
+                <a href="#projects"><div className="nav-link projects">Project</div></a>
+                <a href="#contact"><div className="nav-link contact1">Contact Me</div></a>
+                <div className="nav-link resume">
+                  <a id="resume-link-1" href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer"><button id="resume-button-1" onClick={handle} >Resume</button></a>
                   
                   
                 </div>
@@ -59,12 +59,12 @@ function Navbar(){
                   as={Button} rightIcon={<HamburgerIcon />}>
                   </MenuButton>
                   <MenuList>
-                  <MenuItem><a href="#home" style={{textDecoration:'none',color:"black"}}>Home</a></MenuItem>
-                <MenuItem><a href="#about" style={{textDecoration:'none',color:"black"}}>About</a></MenuItem>
-                <MenuItem><a href="#skills" style={{textDecoration:'none',color:"black"}}>Skills</a></MenuItem>
-                <MenuItem><a href="#projects" style={{textDecoration:'none',color:"black"}}>Projects</a></MenuItem>
-                <MenuItem><a href="#contact" style={{textDecoration:'none',color:"black"}}>Contact</a></MenuItem>
-                <MenuItem><a id="resume-link-1" href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" onClick={handle} style={{textDecoration:'none',color:"black"}} download>Resume</a></MenuItem>
+                  <MenuItem><a href="#home" className="nav-link home" style={{textDecoration:'none',color:"black"}}>Home</a></MenuItem>
+                <MenuItem><a href="#about" className="nav-link about" style={{textDecoration:'none',color:"black"}}>About</a></MenuItem>
+                <MenuItem><a href="#skills" className="nav-link skills1" style={{textDecoration:'none',color:"black"}}>Skills</a></MenuItem>
+                <MenuItem><a href="#projects" className="nav-link projects" style={{textDecoration:'none',color:"black"}}>Projects</a></MenuItem>
+                <MenuItem><a href="#contact" className="nav-link contact1" style={{textDecoration:'none',color:"black"}}>Contact</a></MenuItem>
+                <MenuItem><a id="resume-link-1" className="nav-link resume" href="https://drive.google.com/file/d/1koCnB_V1zhE8MY_KB6Fif7AjyGCYsjU-/view?usp=sharing" target='_blank' rel="noreferrer" onClick={handle} style={{textDecoration:'none',color:"black"}} download>Resume</a></MenuItem>
                   </MenuList>
                 </Menu>
               </Box>

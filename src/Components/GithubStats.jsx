@@ -10,16 +10,16 @@ console.log(window.innerWidth)
             <div>
                 <h1>My Github Statistics</h1>
                 <div className='images'>
-                    <div id='github-streak-stats'>
-                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishal0312&theme=dark&hide_border=false" alt="" />
+                    <div >
+                        <img id='github-streak-stats' src="https://github-readme-streak-stats.herokuapp.com/?user=Vishal0312&theme=dark&hide_border=false" alt="" />
                     </div>
                     
-                    <div id='github-top-langs'>
-                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishal0312&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="" />
+                    <div >
+                        <img id='github-top-langs' src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishal0312&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="" />
                     </div>
                 
-                    <div id='github-stats-card'>
-                        <img src="https://github-readme-stats.vercel.app/api?username=Vishal0312&theme=algolia&hide_border=false&include_all_commits=true&count_private=false&show_icons=true" alt="" />
+                    <div >
+                        <img id='github-stats-card' src="https://github-readme-stats.vercel.app/api?username=Vishal0312&theme=algolia&hide_border=false&include_all_commits=true&count_private=false&show_icons=true" alt="" />
                         
                     </div>
                 
